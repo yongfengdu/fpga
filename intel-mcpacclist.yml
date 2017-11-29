@@ -1,0 +1,16 @@
+---
+
+FPGA_INTEL_ACC_NOOP:
+    accname: intel-mcp-noop
+    accid: 1
+    acc-class: ACC_NOOP
+
+FPGA_INTEL_ACC_ECHO:
+    accname: intel-mcp-echo
+    accid: 2
+    acc-class: ACC_ECHO
+
+FPGA_INTEL_ACC_COMPRESS:
+    accname: intel-mcp-compress
+    accid: 3
+    acc-class: ACC_COMPRESS

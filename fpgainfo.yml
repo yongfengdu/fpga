@@ -1,0 +1,54 @@
+device1:
+  availableslots: 2
+  id: 1
+  name: intel-fpga-dev.0
+  path: /devices/pci0000:5e/0000:5e:00.0/fpga/intel-fpga-dev.0
+  slotnum: 4
+  slots:
+    slot1:
+      slotid: 1
+      acc_type: intel-mcp-echo
+      status: inuse
+      vfpath: fakedVFpath
+    slot2:
+      slotid: 2
+      acc_id: 1
+      acc_type: intel-mcp-noop
+      status: inuse
+      vfpath: /sys/class/fpga/dev1/slot2
+    slot3:
+      slotid: 3
+      acc_id: 2
+      acc_type: intel-mcp-echo
+      status: inuse
+      vfpath: /sys/class/fpga/dev1/slot3
+    slot4:
+      slotid: 4
+      status: empty
+  type: intel-mcp
+device2:
+  availableslots: 2
+  id: 2
+  name: intel-fpga-dev.1
+  path: /devices/pci0000:be/0000:be:00.0/fpga/intel-fpga-dev.1
+  slotnum: 4
+  slots:
+    slot1:
+      slotid: 1
+      status: empty
+    slot2:
+      slotid: 2
+      acc_id: 1
+      acc_type: intel-mcp-noop
+      status: idle
+      vfpath: /sys/class/fpga/dev2/slot2
+    slot3:
+      slotid: 3
+      acc_id: 3
+      acc_type: intel-mcp-net
+      status: inuse
+      vfpath: /sys/class/fpga/dev2/slot3
+    slot4:
+      slotid: 4
+      status: empty
+  type: intel-mcp

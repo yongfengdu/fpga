@@ -1,0 +1,11 @@
+---
+
+device1:
+  name: intel-fpga-dev.0
+  path: /devices/pci0000:5e/0000:5e:00.0/fpga/intel-fpga-dev.0
+  id: 1
+
+device2:
+  name: intel-fpga-dev.1
+  path: /devices/pci0000:be/0000:be:00.0/fpga/intel-fpga-dev.1
+  id: 2
